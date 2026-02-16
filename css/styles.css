@@ -39,7 +39,7 @@ a{
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .contenedor{
@@ -65,3 +65,19 @@ h3{
     font-size: 2.4rem;
 }
 
+/** HEADER **/ 
+ .header{
+    display: flex;
+    justify-content: center;
+ }
+
+ .header__logo{
+    margin: 3rem 0;
+ }
+
+ /** NAVEGACION **/
+ .navegacion{
+
+ }
+
+ .navegacion__enlace{
